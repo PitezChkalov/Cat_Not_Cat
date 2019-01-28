@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CatNotCat</string>
+    <string name="take_picture">Picture</string>
+    <string name="save_picture">Check!</string>
+    <string name="takeNewPicture">Tap to check new photo</string>
+    <string name="manual">Manual</string>
+    <string name="stat">Statistics</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+
+
+</resources>

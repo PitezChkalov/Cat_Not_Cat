@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/capture_cat"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:textSize="30sp" />
+
+
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/waveLoadingView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:wlv_borderColor="@color/colorAccent"
+        app:wlv_borderWidth="0dp"
+        app:wlv_progressValue="40"
+        app:wlv_shapeType="circle"
+        app:wlv_round_rectangle="true"
+        app:wlv_triangle_direction="north"
+        app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+        app:wlv_titleCenterStrokeWidth="3dp"
+        app:wlv_titleCenter="Loading..."
+        app:wlv_titleCenterColor="@android:color/white"
+        app:wlv_titleCenterSize="24sp"
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/capture_not_cat"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="50dp"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/textViewTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="TAP TO TAKE PHOTO"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+</FrameLayout>
